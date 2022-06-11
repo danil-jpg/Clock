@@ -1,0 +1,74 @@
+.background_logo {
+  padding-top: 160px;
+  height: 810px;
+
+  background: linear-gradient(
+      0deg,
+      rgba(15, 15, 15, 0.5),
+      rgba(15, 15, 15, 0.5)
+    ),
+    url(../images/logoSection/TopLogoMan.jpg);
+}
+
+.logo_block {
+  padding-top: 93px;
+  padding-left: 67px;
+  width: 320px;
+  height: 320px;
+  border: white solid;
+
+  .logo {
+    width: 185px;
+    height: 86px;
+
+    font-family: "Post No Bills Jaffna";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 96px;
+    text-align: center;
+    padding-bottom: 0px;
+    color: #ffffff;
+  }
+
+  .logo_line {
+    width: 179px;
+    height: 0px;
+    margin-top: -14px;
+    border: 2px solid #ffffff;
+    margin-bottom: 7px;
+  }
+
+  .logo_city {
+    width: 180px;
+    height: 44px;
+
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+}
+.logo_text {
+  margin-top: 80px;
+  padding-right: 100px;
+  width: 730px;
+  height: 96px;
+
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}

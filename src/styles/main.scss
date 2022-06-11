@@ -1,0 +1,22 @@
+@import "fonts";
+@import "mixins";
+@import "variables";
+@import "header";
+@import "background-logo";
+@import "clockSell";
+@import "brand";
+@import "footer";
+@import "media";
+@import "hamburger";
+@import "../../node_modules/swiper/swiper-bundle.css";
+@import "hover.scss";
+
+img {
+  width: auto !important;
+  max-width: 100% !important;
+}
+
+// * {
+//   border: 1px solid red;
+//   box-sizing: border-box;
+// }

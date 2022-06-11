@@ -1,0 +1,314 @@
+main {
+  div.background1 {
+    background-color: #000000;
+    height: 730px;
+    background: #000000;
+  }
+
+  div.background2 {
+    height: 730px;
+    background: url("../images/clockSale/ManSitting.png");
+  }
+
+  div.background3 {
+    height: 600px;
+    background: url("../images/clockSale/ManStanding.png");
+  }
+
+  div.background4 {
+    height: 600px;
+    background: black;
+  }
+
+  .main_data {
+    display: inline-block;
+    width: 100%;
+    margin-top: 93px;
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  .line {
+    width: 120px;
+    border: 1px solid #ffffff;
+    margin: 20px auto 0 auto;
+  }
+
+  .clock_wrap {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 50px;
+    padding: 55px 22px;
+    width: 260px;
+    height: 325px;
+    background: #191b1c;
+  }
+}
+
+.line + .clock_wrap {
+  margin-left: 80px;
+}
+
+.descr {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height */
+
+  /* white */
+
+  color: #ffffff;
+}
+
+.clW {
+  margin-right: 120px;
+}
+
+.firstT {
+  margin: 25px 0 10px 84px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+.sT {
+  margin: 25px 0 10px 170px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+.tT {
+  margin: 25px 140px 10px 160px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+.firstP {
+  @include clockStuff;
+  justify-content: flex-start;
+}
+
+.sP {
+  @include clockStuff;
+  justify-content: end !important;
+  margin: 0px;
+}
+
+.tP {
+  justify-content: end !important;
+  @include clockStuff;
+}
+
+.new_collection {
+  display: inline-block;
+  margin: 484px auto 0 auto;
+  height: 39px;
+  width: 100%;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.line {
+  margin-top: 30px;
+}
+
+.flex_start {
+  justify-content: flex-start !important;
+}
+.clock_wrap + .descr {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.main_catalog {
+  display: block;
+  padding: 12px 28px;
+  margin: 20px auto;
+
+  background-color: rgba(15, 15, 15, 0);
+  border: solid;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.collection_2018 {
+  margin: auto;
+  margin-top: 100px;
+  display: block;
+  width: 376px;
+  height: 39px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.strange_line {
+  margin: auto;
+  margin-top: 40px;
+  display: block;
+  width: 120px;
+  height: 0px;
+
+  /* white */
+
+  border: 1px solid #ffffff;
+}
+
+.strange_text {
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 61px;
+  height: 173px;
+  width: 471px;
+  text-align: center;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* or 21px */
+
+  text-align: center;
+
+  /* white */
+
+  color: #ffffff;
+}
+
+.dif {
+  display: block;
+  margin: auto;
+  width: 311px;
+  height: 47px;
+  background: rgba(15, 15, 15, 0);
+  border: solid 1px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  /* white */
+
+  color: #ffffff;
+}
+
+.new_arrangement {
+  width: 100%;
+  height: 1289px;
+
+  background: #000000;
+}
+
+#cl > span {
+  height: 48px;
+  padding: 120px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  /* white */
+
+  color: #ffffff;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.clock_sale_line {
+  width: 120px;
+  height: 0px;
+  margin: -20px auto 81px auto;
+  /* white */
+
+  border: 1px solid #ffffff;
+}
+
+.cl {
+  width: 260px;
+  height: 325px;
+  padding: 55px 22px;
+  background: #191b1c;
+}
+
+.cT {
+  margin: 25px 145px 10px 0px;
+}
+.cP {
+  margin-left: 0px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+}
+
+main .clock_wrap {
+  margin-left: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.background1 span {
+  display: none;
+}

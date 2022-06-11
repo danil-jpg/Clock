@@ -1,0 +1,281 @@
+@media (max-width: 1876px) {
+  .line + .clock_wrap {
+    margin-left: 25px;
+  }
+  .clW {
+    margin-right: 0px;
+  }
+  .price {
+    display: inline-block;
+  }
+  .tt {
+    margin-right: 0px;
+  }
+  .tP {
+    justify-content: flex-end;
+  }
+  .firstT {
+    margin: 25px 0 10px 24px;
+  }
+  .price {
+    display: flex;
+  }
+
+  .sP {
+    margin-left: 0px;
+    justify-content: end;
+  }
+
+  .about {
+    font-size: 23px !important;
+  }
+}
+
+@media (max-width: 1683px) {
+  .descr .tT .cT {
+    margin: 0px;
+  }
+
+  .price .firstP .cP {
+    margin: 0px;
+  }
+}
+
+@media (max-width: 1610px) {
+  #clW {
+    // display: none;
+  }
+
+  .none {
+    display: none;
+  }
+}
+
+@media (max-width: 1550px) {
+  .descr_1 {
+    margin-left: 20px;
+  }
+  .price_1 {
+    justify-content: flex-start;
+    padding-left: 40px;
+  }
+  .price_2 {
+    justify-content: flex-start;
+    padding-left: 40px;
+  }
+  .descr_2 {
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .brands {
+    height: 451px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .logo_text {
+    padding-right: 165px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .logo_text {
+    padding-right: 225px;
+  }
+  .cT {
+    margin: 21px 73px 10px 0;
+  }
+  .cl {
+    width: 230px;
+    height: 325px;
+    padding: 57px 12px;
+    background: #191b1c;
+  }
+  .brands {
+    width: 100%;
+    height: 451px;
+    background: #0f0f0f;
+  }
+  footer .btn {
+    font-size: 14px;
+  }
+
+  .post {
+    margin-top: -91px;
+  }
+
+  footer button {
+    width: 79px;
+    font-size: 8px;
+  }
+
+  .post {
+    margin-top: -90px;
+  }
+}
+
+@media (max-width: 1100px) {
+  #logo_text {
+    padding-right: 0px;
+    width: 60%;
+  }
+  .logo_block {
+    margin: 0 auto;
+  }
+
+  .line + .row > div.clock_wrap:first-child {
+    margin-left: 10px;
+  }
+
+  .about {
+    font-size: 23px;
+  }
+}
+@media (max-width: 1000px) {
+  main .second_wrap {
+    // display: none;
+  }
+  .line + .row > div.clock_wrap:first-child {
+    margin-left: 28%;
+  }
+}
+
+@media (max-width: 992px) {
+  .text > .like {
+    padding-right: 0px;
+  }
+  .text > .cabinet {
+    padding-right: 0px;
+  }
+  .text > .settings {
+    padding-right: 50px;
+  }
+
+  .cl {
+    border: solid;
+  }
+
+  #cl > .row > div.col-md:nth-child(4) {
+    display: none;
+  }
+  #cl > .row > div.col-md:nth-child(8) {
+    display: none;
+  }
+  .none-md {
+    display: none;
+  }
+  .about {
+    margin-top: 40px !important;
+  }
+  .footer_text {
+    font-size: 15px;
+  }
+  .footer_sent {
+    font-size: 15px;
+  }
+  footer button {
+    width: 100%;
+    font-size: 17px;
+  }
+  .strange_text {
+    width: 100%;
+  }
+}
+.none_sm {
+}
+
+@media (max-width: 768px) {
+  .collection_2018 {
+    width: 100%;
+  }
+  footer input {
+    width: 100%;
+  }
+  .header_text {
+    font-size: 11px;
+  }
+  .header_top {
+    height: 84px;
+  }
+
+  .menu-button-container {
+    display: flex;
+  }
+  .none_sm {
+    display: none;
+  }
+  .menu-button {
+    margin-left: 600px;
+  }
+  .menu {
+    margin-top: 170px !important;
+  }
+  .burger {
+    display: flex !important;
+  }
+  .dif {
+    margin-top: 120px;
+  }
+  .none_sm {
+    display: none;
+  }
+
+  footer .btn {
+    display: none;
+  }
+  .post {
+    margin-top: -115px;
+  }
+  .footer {
+    height: 30px;
+  }
+  .footer_text {
+    font-size: 12px;
+  }
+  .footer_sent {
+    font-size: 12px;
+  }
+}
+
+// 400
+@media (max-width: 576px) {
+  .header_text {
+    font-size: 16px !important;
+  }
+  .header_reg {
+    font-size: 16px !important;
+  }
+  .menu-button {
+    margin-left: 500px;
+    margin-top: -27px;
+  }
+  .line + .row > div.clock_wrap:first-child {
+    margin-left: 10%;
+  }
+  .menu-button {
+    margin-left: 250px;
+    margin-top: -27px;
+  }
+  .none_exs {
+    display: none;
+  }
+
+  .line + .row > div.clock_wrap:first-child {
+    margin-left: 20%;
+  }
+  .logo_text {
+    font-size: 14px;
+  }
+
+  #cl > span {
+    font-size: 25px;
+  }
+  .post {
+    margin-top: -65px;
+  }
+  footer button {
+    font-size: 13px;
+  }
+}

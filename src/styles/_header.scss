@@ -1,0 +1,133 @@
+@import "variables";
+@import "mixins";
+@import "fonts";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  margin: 0;
+}
+
+header {
+  background: #000000;
+}
+
+.header_top {
+  height: 44px;
+}
+
+.phone_wrapper {
+  margin-top: 8px;
+}
+
+.header_text {
+  width: 355px;
+  height: 16px;
+  margin-top: 14px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #969696;
+}
+
+.header_bottom {
+  background: #0f0f0f;
+  height: 80px;
+  margin-top: 12px;
+}
+
+.header_reg {
+  margin-top: 8px;
+  span {
+    width: 107px;
+    height: 16px;
+
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+
+    text-align: right;
+
+    color: #969696;
+  }
+}
+
+.bottom_logo {
+  width: 104px;
+  height: 49px;
+  margin-top: 15px;
+  font-family: "Post No Bills Jaffna";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #ffffff;
+}
+
+.button_wrap {
+  width: 96px;
+  height: 18px;
+
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.burger{
+  display: none !important;
+}
+.top-nav{
+  background-image: none !important;
+}
+
+.text {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  margin-top: 31px;
+
+  .like {
+    // width: 96px;
+    padding-right: 50px;
+    height: 18px;
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: none;
+    background-color: rgba(28, 28, 28, 0);
+  }
+
+  .cabinet {
+    padding-right: 50px;
+    color: #969696;
+    border: none;
+    background-color: rgba(28, 28, 28, 0);
+  }
+
+  .settings {
+    padding-right: 72px;
+    color: #969696;
+    border: none;
+    background-color: rgba(28, 28, 28, 0);
+  }
+
+  .cart {
+    padding-right: 45px;
+  }
+}
