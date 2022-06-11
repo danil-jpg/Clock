@@ -20,23 +20,23 @@ const sass = gulpSass(dartSass);
 const paths = {
 	html : {
 		src : "index.html",
-		dest : "dist/"
+		dest : "docs/"
 	},
 	styles : {
 		src : `src/styles/**/*`,
-		dest : "dist/src/styles/"
+		dest : "docs/src/styles/"
 	},
 	scripts : {
 		src : `src/scripts/**/*.js`,
-		dest : "dist/src/scripts/"
+		dest : "docs/src/scripts/"
 	},
 	images : {
 		src : "src/images/**/*",
-		dest: "dist/src/images/"
+		dest: "docs/src/images/"
 	},
 	fonts : {
 		src : "src/fonts/*",
-		dest : "dist/src/fonts/"
+		dest : "docs/src/fonts/"
 	}
 }
 
@@ -89,7 +89,7 @@ function  scripts(){
 
 function watch(){
 	browserSync.init({
-        server: "dist/"
+        server: "docs/"
     })
 	gulp.watch(paths.html.src , minifyHtml)
 	gulp.watch(paths.html.dest).on("change" ,browserSync.reload)
